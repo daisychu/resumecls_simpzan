@@ -13,16 +13,23 @@
 
 \documentclass[en,color]{resumecls}
 
-\name{Name}
-\organization{unit, school or organization}
-\address{address, zip code}
-\mobile{+1 XXX XXXX XXXX}
-\mail{i@example.com}
-\homepage{http://example.com}
-\resumeurl{http://example.com/resume-en.pdf}
+\name{Michael Zhang 张国清}
+\organization{School of Computer Science \& Technology, Soochow University}
+\address{50 Donghuan Rd., Changlang Dist., Suzhou, Jiangsu, China, 215021}
+\mobile{+86 155 0168 6515}
+\mail{simpzan@gmail.com}
+\homepage{http://github.com/simpzan}
+%\resumeurl{http://example.com/resume-en.pdf}
+
+\setmainfont{Minion Pro}
+\setsansfont{Myriad Pro}
+%\setmonofont{Courier New}
+\setmonofont{Minion Pro}
+\setCJKmainfont{SimSun}
+\setCJKsansfont{KaiTi}
+\setCJKmonofont{SimHei}
 
 \begin{document}
-
 \begin{table}
 
 \maketitle
@@ -30,69 +37,109 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \heading{Education}
 \entry{2em}{Xrp{8em}}{
-    \heiti{School} & City & Time Period \\
+    \textbf{Soochow University} & Suzhou, Jiangsu & 2010/09 - \\
 }
 \entry{4em}{lXX}{
-    Degree & College of XXX & Major in XX \\
+    Master's Degree\hspace{0.3cm} & Computer Software \&  Theory \\
+}
+\entry{2em}{Xrp{8em}}{
+    \textbf{Huaiyin Normal University} & Suzhou, Huai'an & 2006/09 - 2010/06 \\
+}
+\entry{4em}{lXX}{
+    Bachelor's Degree  &  Electronic Information Science \& Technology \\
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\heading{Professional Skills}
+\entry{2em}{lX}{
+    Programming Languages & C/C++/Objective-C, Java, Python, SQL, Scheme \\
+    Operation Systems & Mac OS X, GNU/Linux, iOS, Android \\
+    Tools & Vim, Git, CMake, Xcode, Eclipse, Visual Studio, GraphViz, \LaTeX{} \\
+    English & passed CET 4/6, great at reading, writing, listening and speaking. \\
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\heading{Research Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\heading{Project Experience}
 \entry{2em}{Xp{8em}}{
-    \heiti{Insitute} & Time Period \\
+    \textbf{SBTrie} & 2012/10 - 2013/06 \\
 }
-\entry{4em}{X}{Lab \quad Position}
-\entry{6em}{X}{
-    Research Fields and Specific Content \\
-    Publication (You can also use bibtex, like \cite{label}, see end of doc） \\
+\entry{4em}{X}{
+    Succinct Index for string texts based on LOUDS representation of tree. \\
+    My research project, I designed and implemented this data structure and do some benchmarks.   \\
 }
+\entry{2em}{Xp{8em}}{
+    \textbf{iDictionary} & 2010/12 - 2011/06 \\
+}
+\entry{4em}{X}{
+    An integrated vocabulary accumulation tool featuring lookup, bookmark, learning and synchronization of learning progress between multiple client. \\
+    My personal project, I did all the work from requirement to implementation. \\
+}
+\entry{2em}{Xp{8em}}{
+    \textbf{Fabia 3D Show} & 2011/09 - 2011/12 \\
+}
+\entry{4em}{X}{
+    Skoda Fabia model's show app for iPad. \\
+    My responsibility includes app skeleton setup and implementation of 3 main components. \\
+}
+\entry{2em}{Xp{8em}}{
+    \textbf{Skoda Care Mobile} & 2011/11 - 2012/02 \\
+}
+\entry{4em}{X}{
+    Skoda after-sale service app for iPhone. \\
+    I did survey of technical solutions, setup app frame and implemented main components \\
+}
+\entry{2em}{Xp{8em}}{
+    \textbf{MySkoda} & 2011/10 - 2012/04 \\
+}
+\entry{4em}{X}{
+    Skoda's auto magazine for iPhone/iPad. \\
+    I maintained the old version, initiated new version and implemented the issue downloading component. \\
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\heading{Research Experience}
+%\entry{2em}{Xp{8em}}{
+%    \heiti{Insitute} & Time Period \\
+%}
+%\entry{4em}{X}{Lab \quad Position}
+%\entry{6em}{X}{
+%    Research Fields and Specific Content \\
+%    Publication (You can also use bibtex, like \cite{label}, see end of doc） \\
+%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \heading{Working Experience}
 \entry{2em}{Xp{8em}}{
-    \heiti{Unit} & Time Period \\
+    \textbf{YAPPAM(Beijing) Co., Ltd.} & 2011/08 - 2012/04 \\
 }
-\entry{4em}{X}{Department \quad Position}
+\entry{4em}{X}{3rd Department \quad iOS Develop Engineer}
 \entry{6em}{X}{
-    Specific Issues Responsible for \\
-    Specific Content of Your Work \\
+    Develop and maintain all kinds of iOS projects. \\
+%    Developed Fabia 3D Show, mySkoda etc. \\
 }
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\heading{School Experience}
+%\entry{2em}{Xp{8em}}{
+%    Experience 1 & Time Period \\
+%    Experience 2 & Time Period \\
+%}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\heading{Awards}
+%\entry{2em}{Xr}{
+%    Award 1 & Time \\
+%    Award 2 & Time \\
+%}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\heading{School Experience}
-\entry{2em}{Xp{8em}}{
-    Experience 1 & Time Period \\
-    Experience 2 & Time Period \\
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\heading{Awards}
-\entry{2em}{Xr}{
-    Award 1 & Time \\
-    Award 2 & Time \\
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\heading{Professional Skill}
+\heading{Interests}
 \entry{2em}{lX}{
-    Proficient in  & XXX \\
-    Experienced in & XXX \\
-    Familiar with  & XXX \\
-    Use            & XXX \\
+    IT & all kinds of mobile devices, Google, Apple, StackOverflow, GitHub, Feedly, Pocket \\
+    Others & Badminton, Foosball, Reading, Travelling \\
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\heading{Other listings, such as hobby, network profile and so on}
-\entry{2em}{lX}{
-    Label 1 & Content 1 \\
-    Label 2 & Content 2 \\
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% If there is no publications, just comment this part.
-\heading{Appendix: Publications}
-\vspace{-6em}
-\bibliography{resume}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% If there is no publications, just comment this part.
+%\heading{Appendix: Publications}
+%\vspace{-6em}
+%\bibliography{resume}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{table}
